@@ -15,6 +15,7 @@ echo $bike->brake();
 echo '<br><br>';
 
 $car = new Car( 'green', 4, 'electric');
+echo $car -> getColor();
 $car -> setEnergyLevel(100);
 $car->start();
 $car->forward();
@@ -22,8 +23,9 @@ echo '<br> Vitesse de la voiture : ' . $car->getCurrentSpeed() . ' km/h' . '<br>
 echo $car->brake();
 echo '<br> Vitesse de la voiture : ' . $car->getCurrentSpeed() . ' km/h' . '<br>';
 
-
+echo '<br><br>';
 $car2 = new Car( 'red', 4, 'electric');
+echo $car2 -> getColor();
 $car2 -> setEnergyLevel(100);
 $car2->start();
 $car2->forward();
