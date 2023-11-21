@@ -24,7 +24,7 @@ echo $car->brake();
 echo '<br> Vitesse de la voiture : ' . $car->getCurrentSpeed() . ' km/h' . '<br>';
 
 echo '<br><br>';
-$car2 = new Car( 'red', 4, 'electric');
+$car2 = new Car( 'red', 4, 'Petrol');
 echo $car2 -> getColor();
 $car2 -> setEnergyLevel(100);
 $car2->start();
